@@ -22,6 +22,7 @@ defmodule ImageLite.MixProject do
   defp deps do
     [
       {:vix, "~> 0.16"},
+      {:sweet_xml, "~> 0.7"},
       {:test_iex, github: "mindreframer/test_iex", only: [:test, :dev]}
     ]
   end
