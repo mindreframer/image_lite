@@ -23,8 +23,6 @@ defmodule Image do
   alias Image.Math
   alias Image.Draw
 
-  alias Evision.Constant
-
   import Image.Color, only: :macros
 
   @typedoc """
